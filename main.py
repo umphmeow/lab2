@@ -23,7 +23,7 @@ else:
     max_d = max(d_arr_int)
     min_d = min(d_arr_int)
     answer = (max_d + min_d) / 2
-     answer_txt = ''
+    answer_txt = ''
     for digit in str(answer):
             answer_txt += dict[digit] + ' '
     print('Ответ:', answer_txt, dict[','] )
